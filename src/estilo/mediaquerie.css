@@ -1,0 +1,58 @@
+@media screen and (min-width: 777px) {
+
+    header nav{
+        justify-content: space-around;
+    }
+
+    *{
+        transition: .2s;
+    }
+
+    .nav_list{
+        flex-flow: row;
+        width: 70%;
+        background: transparent;
+        height: auto;
+        position: relative;
+    }
+
+    .nav_item{
+        font-size: 1.3rem;
+    }
+    
+    .menu_hamburguer{
+        display: none;
+    }
+
+    .menu_cards{
+        grid-template-columns: repeat(2, 23.5rem);
+    }
+
+    .headline_img img, .sobre_img img{
+        height: 30rem;
+    }
+}
+
+@media screen and (min-width: 1174px) {
+
+
+    .headline{
+        flex-flow: row nowrap;
+    }
+
+    .sobre{
+        flex-flow: row nowrap;
+    }
+
+    .menu_cards{
+        grid-template-columns: repeat(3, 23.5rem);
+    }
+}
+
+@media screen and (min-width: 1576px) {
+
+
+    .menu_cards{
+        grid-template-columns: repeat(4, 23.5rem);
+    }
+}

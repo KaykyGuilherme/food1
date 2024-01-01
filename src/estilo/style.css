@@ -329,8 +329,16 @@ header nav{
     box-shadow: 0 .5rem 2rem rgb(0, 0, 0, .7);
     padding: 1rem;
     border-radius: 1rem;
-    width: 24rem;
+    width: 80%;
     margin: auto;
+}
+
+.info_user{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(2, 49.5%);
+    gap: 1rem
 }
 
 .info_user input::placeholder{
@@ -405,6 +413,17 @@ footer{
 
 .desconto_enviar button{
     border-radius: 1rem;
+}
+
+.infos{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: .5rem;
+    height: 100%;
+}
+
+.footer_info{
+    display: block;
 }
 
 .footer_info h3{
